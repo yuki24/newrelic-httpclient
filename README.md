@@ -1,12 +1,12 @@
-# NewrelicHttpclient
+# NewRelic instrumentation for HTTPClient
 
-TODO: Write a gem description
+**`newrelic-httpclient`** allows transactions to show time spent inside httpclient requests.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'newrelic_httpclient'
+    gem 'newrelic-httpclient'
 
 And then execute:
 
@@ -14,11 +14,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install newrelic_httpclient
+    $ gem install newrelic-httpclient
 
-## Usage
+## Todo
 
-TODO: Write usage instructions here
+ * Allow to show time spent inside asynchronous requests
 
 ## Contributing
 
@@ -27,3 +27,6 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Copyright
+Copyright (c) 2012 Yuki Nishijima. See LICENSE.md for further details.

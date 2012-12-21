@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["mail@yukinishijima.net"]
   gem.description   = %q{newrelic-httpclient allows transactions to show time spent inside httpclient requests}
   gem.summary       = %q{NewRelic instrumentation for HttpClient}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/yuki24/newrelic-httpclient"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

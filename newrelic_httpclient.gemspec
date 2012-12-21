@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'newrelic_httpclient/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "newrelic_httpclient"
+  gem.name          = "newrelic-httpclient"
   gem.version       = NewrelicHttpclient::VERSION
   gem.authors       = ["Yuki Nishijima"]
   gem.email         = ["mail@yukinishijima.net"]

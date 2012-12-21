@@ -2,6 +2,9 @@
 
 **`newrelic-httpclient`** allows transactions to show time spent inside httpclient requests.
 
+[![Build Status](https://travis-ci.org/yuki24/newrelic-httpclient.png?branch=master)](https://travis-ci.org/yuki24/newrelic-httpclient)
+[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/yuki24/newrelic-httpclient)
+
 ## Installation
 
 Add this line to your application's Gemfile:
